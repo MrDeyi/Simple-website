@@ -1,7 +1,15 @@
 .navbar {
-  display: flex;
+   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
+  background-color: rgba(244, 255, 255,0.25);
+    backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
+   border:1px solid rgba(255,255,255,0.18) ;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .nav_items {
   display: flex;
